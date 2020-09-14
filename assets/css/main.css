@@ -1964,11 +1964,14 @@ input, select, textarea {
 					/*color: #ffffff;*/
 					/*text-shadow: 1.25px 0px 0px #c8cccf, -1.25px 0px 0px #c8cccf, 0px 1.25px 0px #c8cccf, 0px -1.25px 0px #c8cccf;*/
 					color: #B0ADD2;
-					text-shadow: 1.25px 0px 0px #a55fc7, -1.25px 0px 0px #a55fc7, 0px 1.25px 0px #a55fc7, 0px -1.25px 0px #a55fc7;
+					/*text-shadow: 1.25px 0px 0px #a55fc7, -1.25px 0px 0px #a55fc7, 0px 1.25px 0px #a55fc7, 0px -1.25px 0px #a55fc7;*/
+					text-shadow: 1.25px 0px 0px #4A235A, -1.25px 0px 0px #4A235A, 0px 1.25px 0px #4A235A, 0px -1.25px 0px #4A235A;
 				}
 
 				table.icons-identity td a:hover:before {
-					text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
+					/*text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;*/
+					color: #ffffff;
+					text-shadow: 1.25px 0px 0px #A3362E, -1.25px 0px 0px #A3362E, 0px 1.25px 0px #A3362E, 0px -1.25px 0px #A3362E;
 				}
 
 				table.icons-identity td a:before {
@@ -2305,8 +2308,8 @@ input, select, textarea {
 
 		#logo h1 {
 			position: relative;
-			color: #fff;
-			font-weight: 600;
+			color: #E9EBFE;
+			font-weight: 500;
 			font-size: 1em;
 			line-height: 1em;
 		}
@@ -2440,7 +2443,9 @@ input, select, textarea {
 				}
 
 					#main > section.dark a:hover {
+						/*border-bottom-color: rgba(255, 255, 255, 0);*/
 						border-bottom-color: rgba(255, 255, 255, 0);
+						color: tomato;
 					}
 
 			#main > section.cover {
@@ -2479,11 +2484,16 @@ input, select, textarea {
 			}
 
 			#main > section.six {
-				background-color: #33236B;
+				background-color: #3A1B61;
+
 			}
 
 			#main > section.seven {
 				background-color: #491D5E;
+				background-image: url("../../images/banner-end4.jpg");
+				background-attachment: fixed;
+				background-repeat: no-repeat;
+				background-size: 100% 100%;
 				/*background: linear-gradient(to top right, #66ffff 0%, #ff99cc 100%);*/
 			}
 
