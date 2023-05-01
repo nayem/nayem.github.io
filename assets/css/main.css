@@ -85,7 +85,7 @@ input, select, textarea {
 	body {
 		background: #fff;
 		font-family: 'Source Sans Pro', sans-serif;
-		font-size: 19pt;
+		font-size: 13pt;
 		font-weight: 300;
 		line-height: 1.75em;
 		color: #888;
@@ -2264,7 +2264,7 @@ input, select, textarea {
 		position: fixed;
 		text-align: right;
 		top: 0;
-		width: 375px;
+		width: 275px;
 	}
 
 		#header .top {
@@ -2421,7 +2421,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		margin-left: 375px;
+		margin-left: 275px;
 		background-color: #f5fafa;
 		/*background-color: #1F3D7E;*/
 
@@ -2487,6 +2487,10 @@ input, select, textarea {
 				/*box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);*/
 			}
 
+			#mobile-center img {
+				width: 300px;
+			}
+
 			#main > section.three {
 				background-color: #ecf1f1;
 				/*background-color: #D4E6F1;*/
@@ -2516,10 +2520,11 @@ input, select, textarea {
 			#main > section.seven {
 				background-color: #FBF0FC;
 				/*background-color: #491D5E;*/
-				background-image: url("../../images/banner-end-w2.jpeg");
+				background-image: url("../../images/banner-end-w2-rev.jpeg");
 				background-attachment: fixed;
 				background-repeat: no-repeat;
-				background-size: 100% 100%;
+				background-size: cover;
+				/*background-size: 100% 100%;*/
 				box-shadow: inset 0 1px 0 0 rgba(0, 0, 0, 0.05), inset 0 0.1em 0.1em 0 rgba(0, 0, 0, 0.025);
 				/*background: linear-gradient(to top right, #66ffff 0%, #ff99cc 100%);*/
 			}
@@ -2531,7 +2536,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 17pt;
+				font-size: 14pt;
 			}
 
 		/* Header */
@@ -2577,7 +2582,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 10pt;
 			}
 
 			.container {
@@ -2652,7 +2657,7 @@ input, select, textarea {
 			}
 
 			body, input, textarea, select {
-				font-size: 16pt;
+				font-size: 10pt;
 			}
 
 			header br {
@@ -2843,7 +2848,7 @@ input, select, textarea {
 		/* Basic */
 
 			body, input, textarea, select {
-				font-size: 14pt;
+				font-size: 10pt;
 			}
 
 			h2 {
@@ -2873,9 +2878,18 @@ input, select, textarea {
 				padding: 4em 0em;
 			}
 
-				#main section.cover header {
-					padding: 0 1em;
-				}
+			#main section.cover header {
+				padding: 0 1em;
+			}
+
+			#mobile-center img {
+				width: 175px;
+			}
+
+			#content .col-md-4 {
+				text-align: center;
+			}
+
 
 		/* Footer */
 
